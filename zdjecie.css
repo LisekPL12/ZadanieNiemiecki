@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    top: 125px;
+    right: 25px;
+}
+
+.image-container img {
+    max-width: 300px;
+    height: auto;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UtF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Główna strona Bartosza Zabrockiego </title>
+    <style>
+    pre.menu {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+    pre.temat {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+    body {
+            background-image: url('bramka.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center 0px; 
+        }
+
+    .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+    header{
+            top: 0;
+            background-color: #0d5585;
+            padding: 15px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    footer {
+            background-color: #0d5585;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" href="zdjecie.css">
+
+    <script language="JavaScript">
+
+    function Militar() {
+        window.location.href = "militar.html";
+    }
+    function Biuro() {
+        window.location.href = "buro.html";
+    }
+    function KorperlicheArbeit() {
+       window.location.href = "podstrona3.html";
+    }
+    </script>
+</head>
+<body>
+    <header> 
+        <div class="button-container">
+        <button onclick="Militar()">Militär</button>
+        <button onclick="Biuro()">Büro</button>
+        <button onclick="KorperlicheArbeit()">Körperliche Arbeit</button>
+    </div> 
+    </header>
+    <!-- Bartosz Zabrocki -->
+
+    
+
+    <h1 style="color: white; text-align: center;">Willkommen auf meiner Website</h1>
+    <pre class="menu">  
+    Oto małe menu dzięki któremu można
+    Przejść na podstrony, mit freundlichen Grüße.
+    </pre>
+
+    <pre class="temat">
+    <h1 style="color: white; text-align: center;">Temat mojej strony to: Styl ubrań w pracy</h1>
+    </pre>
+    
+    <script src="script.js"></script>
+
+
+    <div class="image-container">
+        <img src="Geralcik.jpg" alt="Miłego Dnia" width="300">
+    </div><br>
+
+    <marquee behavior="scroll" direction="left">
+        Bartosz Zabrocki Klasa 3F grupa 2
+    </marquee>
+    
+    <footer>
+        <p style="color: white;">&copy; Bartosz Zabrocki</p>
+        <p style="color: white;">Wszystkie prawa zastrzeżone</p>
+        <p style="color: white;">Bartosz Zabrocki 2025</p>
+    </footer>
+
+</body>
+</html>
